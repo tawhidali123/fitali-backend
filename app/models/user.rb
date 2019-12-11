@@ -4,6 +4,10 @@ class User < ApplicationRecord
     has_secure_password 
 
     def valid_routines
-        self.goal.routines & self.sport.routines
+        routines = self.goal.routines & self.sport.routines
+        
+        routines.map do |routine|
+            RoutineSerializer.new(routine)
+        end
     end
 end

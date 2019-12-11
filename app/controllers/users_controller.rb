@@ -11,9 +11,16 @@ class UsersController < ApplicationController
 
     def create
         @user = User.create(params.require(:user).permit(:username, :password, :goal_id, :gender, :weight, :sport_id))
-        byebug
-        render json: @user, include: '**'
+        token = encode_token({ user_id: @user.id })
+        render json: {user: UserSerializer.new(@user), jwt: token}, include: "**"
+    end
 
+    def update
+        # byebug
+        @user = User.find(params[:id])
+        @user.update(params.require(:user).permit(:sport_id, :goal_id))
+        token = encode_token({ user_id: @user.id })
+        render json: {user: UserSerializer.new(@user), jwt: token}, include: "**"
     end
 
 
