@@ -202,28 +202,28 @@ footballloose2 = Routine.create(name: "SFB part 2", level: "loose", sport: sport
 footballloose3 = Routine.create(name: "SFB part 3", level: "loose", sport: sport3, goal:goal2)
 
 # # soccer
-# explosive1 = Routine.create(name: "Explosive Basketball", level: "maintain", sport: sport1, goal: goal3)
+soccer1 = Routine.create(name: "Soccer fitness", level: "maintain", sport: sport4, goal: goal3)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal3)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal3)
 
-# basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
+soccer2 = Routine.create(name: "Soccer Strength", level: "gain", sport: sport4, goal:goal1)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
 
-# basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
+soccer3 = Routine.create(name: "Soccer stamina", level: "loose", sport: sport4, goal:goal2)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
 
 # # tennis
-# explosive1 = Routine.create(name: "Explosive Basketball", level: "maintain", sport: sport1, goal: goal3)
+tennis1 = Routine.create(name: "Tennis Fitness", level: "maintain", sport: sport5, goal: goal3)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal3)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal3)
 
-# basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
+tennis2 = Routine.create(name: "Tennis Gain", level: "gain", sport: sport5, goal:goal1)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
 
-# basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
+tennis3 = Routine.create(name: "Tennis stamina", level: "loose", sport: sport5, goal:goal2)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
 
@@ -241,41 +241,41 @@ wlloose2 = Routine.create(name: "FK part 2", level: "loose", sport: sport6, goal
 wlloose3 = Routine.create(name: "FK part 3", level: "loose", sport: sport6, goal:goal2)
 
 # # crossfit
-# explosive1 = Routine.create(name: "Explosive Basketball", level: "maintain", sport: sport1, goal: goal3)
+crossfit1 = Routine.create(name: "crossfit maintain", level: "maintain", sport: sport7, goal: goal3)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal3)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal3)
 
-# basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
+crossfit2 = Routine.create(name: "crossfit gain", level: "gain", sport: sport7, goal:goal1)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
 
-# basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
+crossfit3 = Routine.create(name: "crossfit lose", level: "lose", sport: sport7, goal:goal2)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
 
 # # boxing
-# explosive1 = Routine.create(name: "Explosive Basketball", level: "maintain", sport: sport1, goal: goal3)
+boxing1 = Routine.create(name: "boxing maintain", level: "maintain", sport: sport8, goal: goal3)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal3)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal3)
 
-# basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
+boxing2 = Routine.create(name: "boxing gain", level: "gain", sport: sport8, goal:goal1)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
 
-# basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
+boxing3 = Routine.create(name: "boxing lose", level: "lose", sport: sport8, goal:goal2)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
 
 # # martialarts
-# explosive1 = Routine.create(name: "Explosive Basketball", level: "maintain", sport: sport1, goal: goal3)
+martial1 = Routine.create(name: "kung fu maintain", level: "maintain", sport: sport9, goal: goal3)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal3)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal3)
 
-# basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
+martial2 = Routine.create(name: "shaolin gain", level: "", sport: sport9, goal:goal1)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal1)
 
-# basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
+martial3 = Routine.create(name: "karate gain", level: "gain", sport: sport9, goal:goal2)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
 # basketstrength = Routine.create(name: "", level: "", sport: sport1, goal:goal2)
 
@@ -403,6 +403,102 @@ Rejoiner.create(exercise: ex4c, routine: wlloose1)
 Rejoiner.create(exercise: ex1s, routine: wlloose1)
 Rejoiner.create(exercise: ex4s, routine: wlloose1)
 Rejoiner.create(exercise: ex5s, routine: wlloose1)
+
+
+# soccer
+Rejoiner.create(exercise: ex2c, routine: soccer1)
+Rejoiner.create(exercise: ex4c, routine: soccer1)
+Rejoiner.create(exercise: ex5s, routine: soccer1)
+Rejoiner.create(exercise: ex1s, routine: soccer1)
+Rejoiner.create(exercise: ex3s, routine: soccer1)
+Rejoiner.create(exercise: ex4s, routine: soccer1)
+Rejoiner.create(exercise: ex2s, routine: soccer1)
+
+Rejoiner.create(exercise: ex4c, routine: soccer2)
+Rejoiner.create(exercise: ex1s, routine: soccer2)
+Rejoiner.create(exercise: ex2s, routine: soccer2)
+Rejoiner.create(exercise: ex3s, routine: soccer2)
+Rejoiner.create(exercise: ex4s, routine: soccer2)
+Rejoiner.create(exercise: ex5s, routine: soccer2)
+
+Rejoiner.create(exercise: ex5c, routine: soccer3)
+Rejoiner.create(exercise: ex2c, routine: soccer3)
+Rejoiner.create(exercise: ex4c, routine: soccer3)
+Rejoiner.create(exercise: ex1s, routine: soccer3)
+Rejoiner.create(exercise: ex4s, routine: soccer3)
+Rejoiner.create(exercise: ex5s, routine: soccer3)
+
+
+# tennis
+Rejoiner.create(exercise: ex1c, routine: tennis1)
+Rejoiner.create(exercise: ex2c, routine: tennis1)
+Rejoiner.create(exercise: ex5c, routine: tennis1)
+Rejoiner.create(exercise: ex2s, routine: tennis1)
+Rejoiner.create(exercise: ex3s, routine: tennis1)
+
+Rejoiner.create(exercise: ex5s, routine: tennis2)
+Rejoiner.create(exercise: ex2s, routine: tennis2)
+Rejoiner.create(exercise: ex4s, routine: tennis2)
+Rejoiner.create(exercise: ex3s, routine: tennis2)
+Rejoiner.create(exercise: ex1s, routine: tennis2)
+
+Rejoiner.create(exercise: ex2c, routine: tennis3)
+Rejoiner.create(exercise: ex4c, routine: tennis3)
+Rejoiner.create(exercise: ex5s, routine: tennis3)
+Rejoiner.create(exercise: ex1s, routine: tennis3)
+Rejoiner.create(exercise: ex3s, routine: tennis3)
+Rejoiner.create(exercise: ex1c, routine: tennis3)
+Rejoiner.create(exercise: ex3c, routine: tennis3)
+
+
+# crossfit
+Rejoiner.create(exercise: ex2c, routine: crossfit1)
+Rejoiner.create(exercise: ex4c, routine: crossfit1)
+Rejoiner.create(exercise: ex5s, routine: crossfit1)
+Rejoiner.create(exercise: ex1s, routine: crossfit1)
+Rejoiner.create(exercise: ex3s, routine: crossfit1)
+Rejoiner.create(exercise: ex4s, routine: crossfit1)
+Rejoiner.create(exercise: ex2s, routine: crossfit1)
+Rejoiner.create(exercise: ex1c, routine: crossfit1)
+Rejoiner.create(exercise: ex3c, routine: crossfit1)
+
+Rejoiner.create(exercise: ex5s, routine: crossfit2)
+Rejoiner.create(exercise: ex2s, routine: crossfit2)
+Rejoiner.create(exercise: ex4s, routine: crossfit2)
+Rejoiner.create(exercise: ex3s, routine: crossfit2)
+Rejoiner.create(exercise: ex1s, routine: crossfit2)
+
+Rejoiner.create(exercise: ex2c, routine: crossfit3)
+Rejoiner.create(exercise: ex4c, routine: crossfit3)
+Rejoiner.create(exercise: ex5s, routine: crossfit3)
+Rejoiner.create(exercise: ex1s, routine: crossfit3)
+Rejoiner.create(exercise: ex3s, routine: crossfit3)
+Rejoiner.create(exercise: ex4s, routine: crossfit3)
+Rejoiner.create(exercise: ex2s, routine: crossfit3)
+
+
+
+# martial arts
+Rejoiner.create(exercise: ex1c, routine: martial1)
+Rejoiner.create(exercise: ex2c, routine: martial1)
+Rejoiner.create(exercise: ex5c, routine: martial1)
+Rejoiner.create(exercise: ex2s, routine: martial1)
+Rejoiner.create(exercise: ex3s, routine: martial1)
+
+Rejoiner.create(exercise: ex5s, routine: martial2)
+Rejoiner.create(exercise: ex2s, routine: martial2)
+Rejoiner.create(exercise: ex4s, routine: martial2)
+Rejoiner.create(exercise: ex3s, routine: martial2)
+Rejoiner.create(exercise: ex1s, routine: martial2)
+
+Rejoiner.create(exercise: ex2c, routine: martial3)
+Rejoiner.create(exercise: ex4c, routine: martial3)
+Rejoiner.create(exercise: ex5s, routine: martial3)
+Rejoiner.create(exercise: ex1s, routine: martial3)
+Rejoiner.create(exercise: ex3s, routine: martial3)
+Rejoiner.create(exercise: ex4s, routine: martial3)
+Rejoiner.create(exercise: ex2s, routine: martial3)
+
 
 
 
